@@ -46,7 +46,7 @@ RUN apt-get update -y \
     unzip \
     curl \
     git \
-    xz \
+    xz-utils \
     jq \
     && rm -rf /var/lib/apt/lists/*
 
